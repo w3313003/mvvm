@@ -1,7 +1,7 @@
 class MVVM {
     constructor(config = {}) {
         this.$config = config;
-        let data = this._data = this.$config.data;
+        let data = this._data = this.$config.data 
         Object.keys(data).forEach(v => {
             this._proxyData(v);
         });

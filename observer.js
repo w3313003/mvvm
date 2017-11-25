@@ -1,5 +1,5 @@
 function observer(data) {
-    if (!data || typeof data !== 'object') return;
+    if (!data || typeof data !== 'object') return false;
     return new Observe(data);
 }
 
